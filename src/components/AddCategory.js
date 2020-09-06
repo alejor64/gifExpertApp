@@ -11,6 +11,7 @@ const AddCategory = ({setCategories}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        // console.log('submit')
         if(inputValue.trim().length > 2){
             setCategories(categories => [inputValue, ...categories])
             setInputValue('')
