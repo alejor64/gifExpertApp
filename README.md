@@ -24,7 +24,7 @@ yarn
 
 ### Ejecutar el proyecto
 
-El proyecto correrá por defecto en el http://localhost:3000. Para eso se debe ejecutar alguno de los siguientes comandos
+El proyecto correrá por defecto en el http://localhost:3000. Para eso se debe ejecutar alguno de los siguientes comandos:
 
 Ejecutando npm
 
@@ -32,20 +32,46 @@ Ejecutando npm
 npm run start
 ```
 
-Ejecutan yarn
+Ejecutando yarn
 
 ```
 yarn start
 ```
 
+## Testing App
+
+En el directorio *test*, el cual se encuentra dentro de la carpeta *src*, encontrará los test realizados. Para esta App se realizaron los siguientes test:
+
+* Todos los compenentes de la App
+* El helper creado para hacer el llamada a la API [GIPHY Developers](https://developers.giphy.com/).
+* Custom hook
+* Aplicación completa
+
+Para correr los tests debe ejecutar el siguiente comando:
+
+Ejecutando npm
+
+```
+npm run test
+```
+
+Ejecutando yarn
+
+```
+yarn test
+```
+
+**Importante:**
+Notese que encontrara un direcotorio con el nombre de *_snapshots_*, el cual incluye un fotografía del HTML creado con el componente. Si modifíca el componente, debe actualizar el snapshot del mismo para que puede pasar la prueba.
+
 ## Demo
 
 [Demo](https://alejor64.github.io/gifExpertApp/)
 
-## Authors
+## Autor
 
 * **Alejandro Ruiz Sánchez** - *Initial Works* - [alejor64](github.com/alejor64)
 
-## License
+## Licencia
 
 This project is licensed under the MIT License
